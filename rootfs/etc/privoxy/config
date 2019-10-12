@@ -9,7 +9,8 @@ filterfile default.filter
 filterfile user.filter      # User customizations
 
 logfile privoxy.log
-listen-address  :8118
+#  listen-address  :8118
+listen-address 0.0.0.0:8118
 toggle  1
 
 enable-remote-toggle  0
